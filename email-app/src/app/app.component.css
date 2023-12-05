@@ -1,0 +1,14 @@
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width: 90%;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.send{
+    margin-top: 20px;
+}

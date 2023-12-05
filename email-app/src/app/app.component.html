@@ -1,0 +1,17 @@
+<div class="c">
+  <div class="cont">
+    <form [formGroup]="datos">
+      <div class="row justify-content-center">
+        <div class="col-lg-4">
+          <h1 class="text-center">Mailer</h1>
+          <input class="form-control" type="email" placeholder="Correo" formControlName="correo">
+          <input class="form-control" type="text" placeholder="Asunto" formControlName="asunto">
+          <textarea class="form-control" placeholder="Mensaje" formControlName="mensaje"></textarea>
+          <div class="text-center send">
+            <button type="button" class="btn btn-primary" (click)="enviarCorreo()">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>    
+</div>
