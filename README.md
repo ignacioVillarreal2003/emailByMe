@@ -11,7 +11,7 @@ Es una aplicacion para practicar tanto frontend como un poco de backend con herr
 - Instalar Dependencias Backend: cd email-api && npm install
 - Iniciar Aplicación Frontend: cd email-app && ng serve --open
 - Iniciar Servidor Backend: cd email-api && nodemon index.js
-- Crear un archivo enemail-api con el nombre .env y escribir:
+- Crear un archivo en email-api con el nombre .env y escribir:
 >- MAIL="El email desde donde se van a mandar mensajes"
 >- PASS="Contraseña de aplicacion(al verificar en dos pasos, en el gmail de origen)"
 
