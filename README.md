@@ -15,8 +15,7 @@ Es una aplicacion para practicar tanto frontend como un poco de backend con herr
 >- MAIL="El email desde donde se van a mandar mensajes"
 >- PASS="Contraseña de aplicacion(al verificar en dos pasos, en el gmail de origen)"
 
-La aplicación estará disponible en http://localhost:4200, y el servidor backend en http://localhost:3001. Corre localmente. 
-Puede habrir varias pestañas para utilizarla.
+La aplicación estará disponible en http://localhost:4200, y el servidor backend en http://localhost:3000. Corre localmente. 
 
 Si no anda nodemon, instalarlo:
 npm install -g nodemon
